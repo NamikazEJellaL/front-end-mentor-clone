@@ -1,0 +1,19 @@
+#fbfafb Background.
+#ed2d48 Github button
+#3e55a2 Blue Line
+
+
+
+
+https://www.youtube.com/@TheCoderCoder
+https://www.youtube.com/@KevinPowell
+
+
+<a href="https://css-tricks.com/front-end-challenges/" target="_blank"></a>
+
+
+<a href="https://stackoverflow.blog/2021/04/30/podcast-334-a-curious-journey-from-personal-trainer-to-frontend-mentor/"
+                                target="_blank"></a>
+
+
+<a href="https://www.producthunt.com/products/frontend-mentor" target="_blank"></a>
