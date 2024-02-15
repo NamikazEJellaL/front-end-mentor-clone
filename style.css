@@ -6,8 +6,7 @@
     font-style: normal;
     width: auto;
     height: auto;
-
-
+    color: #7a727b;
 }
 
 .wrapper {
@@ -218,41 +217,44 @@
     padding: 10px;
 }
 
-.marginContainer {
-    margin-top: 550px;
-}
-
 .secondWrapper {
     width: 100%;
     height: auto;
 }
 
+.marginContainer {
+    align-content: center;
+    margin: 550px 0 auto auto;
+    background-color: white;
+}
 
 .HowItWorksContainers {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     border-radius: 10px;
-    border: 1px solid;
     background-color: #f0f4f4;
     margin: 24px auto;
-    width: 50%;
+    width: 70%;
     height: auto;
-
+    padding: 60px;
 }
 
 .HowItWorksContainers img {
-    width: 50%;
+    width: 100%;
+    height: 100%;
 }
 
 .howItWorksFlex {
     color: black;
+
 }
 
 .changeTextTwo {
     font-size: 30px;
     text-align: left;
     font-weight: bold;
+    color: black;
 
 }
 
@@ -260,25 +262,41 @@
 .ringNumbers {
     background-color: #6bbfcd;
     color: white;
-    border-radius: 100px;
+    border-radius: 50%;
+    padding: 5px 12px;
     margin-right: 30px;
+
 }
 
 .singleNumber {
     background-color: white;
     color: #3f55a3;
     border-radius: 50px;
-    margin-right: 30px;
+    margin: 0 30px;
+    border-radius: 50%;
+    padding: 5px 12px;
+}
+
+.chooseText {
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
 }
 
 .itemsHowItWorks {
     width: 100%;
     background-color: white;
-    margin: 20px;
-    padding: 10px;
+    margin: 30px;
+    padding: 20px;
     border-radius: 10px;
     text-align: start;
+    font-size: larger;
+    color: #4e2023;
+    cursor: pointer;
 }
+
+
+
 
 
 .namingSense {
@@ -287,5 +305,470 @@
     color: white;
     border-radius: 10px;
     margin-left: 20px;
+    padding: 20px;
 
+}
+
+.spanData {
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+.thirdWrapper {
+    background-color: #fafbfb;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+
+.pro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: #fafbfb;
+}
+
+.bolderAndBetter {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.proColor {
+    background-color: #3e54a3;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+.proData {
+    text-align: center;
+    width: 40%;
+    color: #73737b;
+    border-bottom: 30px;
+    font-size: large;
+}
+
+.accessSpan {
+    font-size: larger;
+    font-weight: bold;
+    color: #1c2123;
+}
+
+.accessAndTackle {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    margin-top: 50px;
+
+}
+
+.accessAndTackleData {
+    text-align: center;
+    padding: 50px;
+    margin: 20px;
+    background-color: white;
+    max-width: 500px;
+    border-radius: 10px;
+
+}
+
+.accessAndTackleData img {
+    width: 100px;
+    height: 40px;
+    padding: 0 10px;
+    margin: 20px;
+}
+
+.learnAbout {
+    text-align: center;
+    margin: 50px auto;
+    background-color: #fafbfb;
+    padding: 50px;
+}
+
+
+.communityWrapper {
+    width: 70%;
+    margin: 10px auto;
+    background-color: #f1f4f5;
+    padding: 50px 100px;
+    border-radius: 20px;
+}
+
+.communityTopFlex {
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    padding-top: 10px;
+    color: #1c2123;
+
+}
+
+.communityTopDataFlex {
+    display: flex;
+    justify-content: end;
+}
+
+.communityTopInside {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+}
+
+.communityTopDataFlex button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.buttonLeftImage {
+    background-image: url(Images/left-arrow.svg);
+    background-position: center;
+}
+
+
+.buttonRightImage {
+    background-image: url(Images/right-arrow.svg);
+    background-position: center;
+}
+
+
+.communityPeoplesWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.CommunityDataImagesAndText {
+    display: flex;
+    flex-direction: row;
+}
+
+.communityPeoplesDataWrapper {
+    width: 25%;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.CommunityDataImagesAndText img {
+    width: 40px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.communityPeoplesData {
+    background-color: #ffffff;
+    margin: 30px 30px 10px 30px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: start;
+}
+
+.francescaAlfieHikmah {
+    font-size: 20px;
+    color: #3e55ad;
+    font-weight: 700;
+}
+
+.faq {
+    text-align: center;
+    font-size: 40px;
+    color: #1c2123;
+}
+
+.faqWrapper {
+    margin: 100px auto;
+    text-align: center;
+    width: 40%;
+
+
+}
+
+.faqFlex {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #dbe4e7;
+    border-radius: 10px;
+    margin: 30px 10px;
+    padding: 10px 30px;
+    cursor: pointer;
+
+}
+
+.faqFlex:hover {
+    background-color: #3e55a2;
+    color: white;
+}
+
+
+.faqFlex:hover .faqData {
+    background-color: #3e55a2;
+    color: white;
+}
+
+.faqFlex img {
+    width: 30px;
+}
+
+.faqData {
+    color: #1c2022;
+}
+
+.centeredText {
+    text-align: center;
+    margin: 10px;
+}
+
+.blueText {
+    text-align: center;
+    margin: 10px;
+    color: #3e54a3;
+    font-size: 50px;
+}
+
+.extraTextWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    margin: 10px auto;
+    align-items: center;
+    align-content: center;
+
+}
+
+
+.GitHubButtonThree {
+    background-color: #ed2d4a;
+    color: white;
+    border-radius: 10px;
+    padding: 8px 70px;
+    align-content: center;
+    cursor: pointer;
+    margin: 30px;
+}
+
+
+
+.fourthWrapper {
+    background-color: #3e54a3;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+
+.fourthWrapperContainer {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    width: 60%;
+    padding: 30px;
+}
+
+.fourthWrapperContainer img {
+    width: 120%;
+    height: auto;
+}
+
+.fourthDataInput {
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.fourthDataInputTwo {
+    font-size: 18px;
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.fourthInputButton {
+    text-align: left;
+    margin-left: 10px;
+    padding: 10px 30px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+
+
+}
+
+.fourthInputButton a {
+    text-decoration: none;
+    color: #3e54a3;
+
+
+}
+
+.fourthInputButton:hover {
+    background-color: black;
+
+}
+
+
+.linksF {
+    border-radius: 50px;
+    margin: 0 20px;
+    width: 5px;
+    height: 10px;
+}
+
+.linksF img {
+    width: 30px;
+    height: 50px;
+}
+
+.linksD {
+    border-radius: 50px;
+    margin: 0 20px;
+    width: 5px;
+    height: 10px;
+}
+
+.linksD img {
+    width: 30px;
+    height: 50px;
+}
+
+.linksT {
+    border-radius: 50px;
+    margin: 0 20px;
+    width: 5px;
+    height: 10px;
+}
+
+.linksT img {
+    width: 30px;
+    height: 50px;
+}
+
+.linksL {
+    border-radius: 50px;
+    margin: 0 20px;
+    width: 5px;
+    height: 10px;
+}
+
+.linksL img {
+    width: 30px;
+    height: 50px;
+}
+
+.mentorAndLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    margin: 20px auto;
+
+
+}
+
+.mentorAndLinksData {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.gridWrapper {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.mainGrid {
+    width: 70%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 0.4fr 0.6fr;
+}
+
+.normalColorChange {
+    color: #3e54a3;
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.anotherGrid {
+    display: grid;
+    grid-template-columns: .2fr .3fr .3fr .2fr;
+    margin-left: 20px;
+}
+
+.topItems {
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.anotherGrid a {
+    text-decoration: none;
+}
+
+.footerButton {
+    background-color: #ec2d49;
+    color: #fefdf9;
+    padding: 5px 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-shadow: #1c2022;
+}
+
+.line {
+    border: 1px solid black;
+}
+
+.authorWrapper {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.authorFlex {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.tcpl {
+    display: flex;
+    justify-content: end;
+}
+
+.finalLinks {
+    margin: 20px;
+}
+
+.finalLinks a {
+    text-decoration: none;
+}
+
+.authorDetails {
+    margin-top: 15px;
 }
